@@ -1,16 +1,29 @@
 {
   "name": "volatiai-mcp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "MCP server for VolatiAI — deterministic sector-data API. 5 tools, no LLM in path.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "x402",
+    "agent-tools",
+    "sector-data",
+    "deterministic"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.2"
-  }
+  },
+  "bin": {
+    "volatiai-mcp": "./volatiai-mcp.mjs"
+  },
+  "files": [
+    "volatiai-mcp.mjs",
+    "README.md"
+  ]
 }
