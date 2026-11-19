@@ -19,7 +19,7 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.2"
   },
-  "bin": "./volatiai-mcp.mjs",
+  "bin": "./volatiai-mcp.js",
   "files": [
     "volatiai-mcp.js",
     "README.md"
